@@ -1,0 +1,102 @@
+
+/* ---------- Color Module Styles ----------- */
+
+body,
+body.overlay {
+  color: #3b3b3b;
+}
+.comment .comment-arrow {
+  border-color: #ffffff;
+}
+#page,
+#main-wrapper,
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+  background: #ffffff;
+}
+.tabs ul.primary li a.active {
+  background-color: #ffffff;
+}
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+#header {
+  background-color: #a8130b;
+  background-image:url('/sites/all/themes/cmua/images/headergradient.png'); 
+
+}
+#header .section {
+  background-image:url('/sites/all/themes/cmua/images/cmualogo.png') ;
+  background-repeat:no-repeat;
+
+
+}
+#header .header_spacer {
+    height:125px; 
+    width: auto;
+}
+a {
+  color: #0071B3;
+}
+a:hover,
+a:focus {
+  color: #018fe2;
+}
+a:active {
+  color: #23aeff;
+}
+.sidebar .block {
+  background-color: #f6f6f2;
+  border-color: #f9f9f9;
+}
+#page-wrapper,
+#footer-wrapper {
+  background: #353535;
+}
+.region-header,
+.region-header a,
+.region-header li a.active,
+#name-and-slogan,
+#name-and-slogan a,
+#secondary-menu-links li a {
+  color: #fffeff;
+}
+
+.signup_field_event_signup a {
+  background-color: #a8130b;
+  background-image:url('/sites/all/themes/cmua/images/headergradient.png'); 
+  color: #FFF;
+  font: bold 30px; 
+  padding: 10px;
+  border: 3px solid #e3b431;
+}
+.signup_field_event_signup a:hover {
+  text-decoration: none;
+  background-image: none;
+  background-color: #353535;
+  color: #e3b431;
+  border: 3px solid #a8130b;
+}
+
+h2 {
+  text-decoration: none;
+  background-image: none;
+  background-color: #353535;
+  color: #e3b431;
+  border: 0px 0px 3px 0px solid #a8130b;
+  width: 100%;
+  padding: 6px 6px 6px 12px;
+}
+
+h2 a {
+    color: #e3b431;
+
+  
+}
+h2 a:hover{
+  text-decoration: none;
+  
+  color: #fff;
+
+}

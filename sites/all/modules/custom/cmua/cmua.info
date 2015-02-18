@@ -1,0 +1,4 @@
+name = CMUA Custom Module
+description = A variety of customizations for the CMUA website.
+package = CMUA
+core = 7.x

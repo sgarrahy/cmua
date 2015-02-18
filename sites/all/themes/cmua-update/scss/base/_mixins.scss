@@ -1,0 +1,17 @@
+// @file
+// Place your mixins here. Feel free to roll your own mixins.
+
+$font-stack: 'Open Sans', sans-serif;
+$header-font: 'Roboto Slab', serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+  font-weight: normal;
+   color: $primary-color;
+}

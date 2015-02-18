@@ -1,0 +1,23 @@
+// Non-modular or client styles for the .l-content region.
+
+article.node {
+border-style: solid;
+border-width: 1px;
+border-color: #d8d8d8;
+margin-bottom: 1.11111rem;
+padding: 1.11111rem;
+color: #333333;
+}
+
+.flexslider {
+border: inherit;
+-webkit-border-radius: inherit;
+-moz-border-radius: inherit;
+-o-border-radius: inherit;
+border-radius: inherit;
+-webkit-box-shadow: inherit;
+-moz-box-shadow: inherit;
+-o-box-shadow:inherit;
+box-shadow: inherit;
+}
+

@@ -1,0 +1,40 @@
+// Non-modular or client styles for .l-header region.
+
+//nav.top-bar {
+//text-align:center;
+//}
+
+//section.top-bar-section {
+//display: inline-block;
+//}
+
+.top-bar-section ul li>a {
+font-size: rem-calc(18);
+font-family: $header-font;
+margin-top: rem-calc(10);
+}
+
+.top-bar {height: 4rem;}
+
+.top-bar .name h1 a {margin-top:rem-calc(10); }
+
+.block-image {
+margin-bottom: 1rem;
+}
+
+section.l-header-region.slider {
+position: relative;
+}
+
+h2.title {
+color: white;
+font-size: $h1-font-size;
+display: block;
+position: absolute;
+width: 100%;
+top: 30%;
+left: 0;
+z-index: 3;
+text-align: center;
+text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
