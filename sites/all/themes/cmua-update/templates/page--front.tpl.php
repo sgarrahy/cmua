@@ -3,7 +3,16 @@
 
   <!--.l-header region -->
   <header role="banner" class="l-header">
-
+    <div class="logo-area">
+      <div class="row">
+        <div class="small-12 medium-3 columns">
+          <img src="http://placehold.it/350x150">
+        </div>
+        <div class="small-12 medium-9 columns">
+          <h3 class="text-right hide-for-small-only"><?php print $linked_site_name; ?></h3>
+        </div>
+      </div>
+    </div>
     <?php if ($top_bar): ?>
       <!--.top-bar -->
       <?php if ($top_bar_classes): ?>
@@ -11,7 +20,7 @@
       <?php endif; ?>
         <nav class="top-bar" data-topbar <?php print $top_bar_options; ?>>
           <ul class="title-area">
-            <li class="name"><h1><?php print $linked_site_name; ?></h1></li>
+            <li class="show-for-small-only name"><h1><a href="/" rel="home" title="Central Maryland Ultimate Association Home">CMUA</a></h1></li>
             <li class="toggle-topbar menu-icon"><a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
           </ul>
           <section class="top-bar-section">
@@ -72,7 +81,6 @@
     <?php if (!empty($page['header'])): ?>
       <!--.l-header-region -->
       <section class="l-header-region slider">
-        <h2 class="title">Central Maryland Ultimate Association</h2>
           <?php print render($page['header']); ?>
       </section>
       <!--/.l-header-region -->
@@ -141,7 +149,7 @@
       <?php endif; ?>
 
       <?php print render($page['content']); ?>
-      <h5>View <a href="/archive">News & Announcements Archive</a></h5>
+      <h5>View <a href="/news-archive">News & Announcements Archive</a></h5>
     </div>
     <!--/.main region -->
 
